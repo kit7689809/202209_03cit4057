@@ -1,8 +1,8 @@
 import WavSteg as en
 
-WAVE_FILE = "cw02/doc/music.wav"
-SECRET_BMP = "cw02/doc/secret.bmp"
-OUTPUT_WAVE_FILE = "cw02/doc/musichidden.wav"
+WAVE_FILE = "doc/music.wav"
+SECRET_BMP = "doc/secret.bmp"
+OUTPUT_WAVE_FILE = "doc/musichidden.wav"
 
 def main():
     en.hide_data(
